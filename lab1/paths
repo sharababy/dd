@@ -1,0 +1,1303 @@
+/lib
+├── apparmor
+├── brltty
+├── console-setup
+├── crda
+│   └── pubkeys
+├── firmware
+│   ├── 3com
+│   ├── acenic
+│   ├── adaptec
+│   ├── advansys
+│   ├── amdgpu
+│   ├── amd-ucode
+│   ├── ar3k
+│   │   └── 1020201coex
+│   ├── asihpi
+│   ├── ath10k
+│   │   ├── QCA4019
+│   │   │   └── hw1.0
+│   │   ├── QCA6174
+│   │   │   ├── hw2.1
+│   │   │   └── hw3.0
+│   │   ├── QCA9377
+│   │   │   └── hw1.0
+│   │   ├── QCA9887
+│   │   │   └── hw1.0
+│   │   ├── QCA9888
+│   │   │   └── hw2.0
+│   │   ├── QCA988X
+│   │   │   └── hw2.0
+│   │   ├── QCA9984
+│   │   │   └── hw1.0
+│   │   └── QCA99X0
+│   │       └── hw2.0
+│   ├── ath6k
+│   │   ├── AR6003
+│   │   │   ├── hw2.0
+│   │   │   └── hw2.1.1
+│   │   └── AR6004
+│   │       ├── hw1.2
+│   │       └── hw1.3
+│   ├── ath9k_htc
+│   ├── atmel
+│   ├── atusb
+│   ├── av7110
+│   ├── bnx2
+│   ├── bnx2x
+│   ├── brcm
+│   ├── cadence
+│   ├── carl9170fw
+│   │   ├── carlfw
+│   │   │   ├── include
+│   │   │   ├── src
+│   │   │   └── usb
+│   │   ├── config
+│   │   ├── extra
+│   │   ├── include
+│   │   │   ├── linux
+│   │   │   └── shared
+│   │   ├── minifw
+│   │   ├── toolchain
+│   │   └── tools
+│   │       ├── carlu
+│   │       │   └── src
+│   │       ├── include
+│   │       ├── lib
+│   │       └── src
+│   ├── cavium
+│   ├── cis
+│   │   └── src
+│   ├── cpia2
+│   ├── cxgb3
+│   ├── cxgb4
+│   ├── dsp56k
+│   ├── e100
+│   ├── ea
+│   ├── edgeport
+│   ├── emi26
+│   ├── emi62
+│   ├── ene-ub6250
+│   ├── ess
+│   ├── go7007
+│   ├── hp
+│   ├── i915
+│   ├── imx
+│   │   └── sdma
+│   ├── intel
+│   ├── intel-ucode
+│   ├── isci
+│   ├── kaweth
+│   ├── keyspan
+│   ├── keyspan_pda
+│   ├── korg
+│   ├── libertas
+│   ├── liquidio
+│   ├── matrox
+│   ├── mediatek
+│   ├── mellanox
+│   ├── moxa
+│   ├── mrvl
+│   ├── mwl8k
+│   ├── mwlwifi
+│   ├── netronome
+│   │   ├── flower
+│   │   └── nic
+│   ├── nvidia
+│   │   ├── gk20a
+│   │   ├── gm200
+│   │   │   ├── acr
+│   │   │   └── gr
+│   │   ├── gm204
+│   │   │   ├── acr
+│   │   │   └── gr
+│   │   ├── gm206
+│   │   │   ├── acr
+│   │   │   └── gr
+│   │   ├── gm20b
+│   │   │   ├── acr
+│   │   │   ├── gr
+│   │   │   └── pmu
+│   │   ├── gp100
+│   │   │   ├── acr
+│   │   │   └── gr
+│   │   ├── gp102
+│   │   │   ├── acr
+│   │   │   ├── gr
+│   │   │   ├── nvdec
+│   │   │   └── sec2
+│   │   ├── gp104
+│   │   │   ├── acr
+│   │   │   ├── gr
+│   │   │   ├── nvdec
+│   │   │   └── sec2
+│   │   ├── gp106
+│   │   │   ├── acr
+│   │   │   ├── gr
+│   │   │   ├── nvdec
+│   │   │   └── sec2
+│   │   ├── gp107
+│   │   │   ├── acr
+│   │   │   ├── gr
+│   │   │   ├── nvdec
+│   │   │   └── sec2
+│   │   ├── gp108
+│   │   │   ├── acr
+│   │   │   ├── gr
+│   │   │   ├── nvdec
+│   │   │   └── sec2
+│   │   ├── gp10b
+│   │   │   ├── acr
+│   │   │   ├── gr
+│   │   │   └── pmu
+│   │   ├── tegra124
+│   │   ├── tegra186
+│   │   └── tegra210
+│   ├── ositech
+│   ├── qca
+│   ├── qcom
+│   │   ├── venus-1.8
+│   │   ├── venus-4.2
+│   │   └── venus-5.2
+│   ├── qed
+│   ├── qlogic
+│   ├── r128
+│   ├── radeon
+│   ├── rockchip
+│   ├── rsi
+│   ├── RTL8192E
+│   ├── rtl_bt
+│   ├── rtl_nic
+│   ├── rtlwifi
+│   ├── sb16
+│   ├── scripts
+│   ├── slicoss
+│   ├── sun
+│   ├── tehuti
+│   ├── ti-connectivity
+│   ├── tigon
+│   ├── ti-keystone
+│   ├── ttusb-budget
+│   ├── ueagle-atm
+│   ├── usbdux
+│   ├── vicam
+│   ├── vxge
+│   ├── yam
+│   ├── yamaha
+│   └── zd1211
+├── hdparm
+├── ifupdown
+├── init
+├── linux-sound-base
+├── lsb
+│   └── init-functions.d
+├── modprobe.d
+├── modules
+│   └── 4.18.0-10-generic
+│       ├── build -> /usr/src/linux-headers-4.18.0-10-generic
+│       ├── initrd
+│       ├── kernel
+│       │   ├── arch
+│       │   │   └── x86
+│       │   │       ├── crypto
+│       │   │       │   ├── sha1-mb
+│       │   │       │   ├── sha256-mb
+│       │   │       │   └── sha512-mb
+│       │   │       ├── events
+│       │   │       │   └── intel
+│       │   │       ├── kernel
+│       │   │       │   └── cpu
+│       │   │       │       └── mcheck
+│       │   │       ├── kvm
+│       │   │       ├── oprofile
+│       │   │       └── platform
+│       │   │           └── atom
+│       │   ├── block
+│       │   ├── crypto
+│       │   │   ├── asymmetric_keys
+│       │   │   └── async_tx
+│       │   ├── drivers
+│       │   │   ├── acpi
+│       │   │   │   ├── apei
+│       │   │   │   ├── dptf
+│       │   │   │   └── nfit
+│       │   │   ├── ata
+│       │   │   ├── atm
+│       │   │   ├── auxdisplay
+│       │   │   ├── base
+│       │   │   │   └── regmap
+│       │   │   ├── bcma
+│       │   │   ├── block
+│       │   │   │   ├── aoe
+│       │   │   │   ├── drbd
+│       │   │   │   ├── mtip32xx
+│       │   │   │   ├── paride
+│       │   │   │   ├── rsxx
+│       │   │   │   ├── xen-blkback
+│       │   │   │   └── zram
+│       │   │   ├── bluetooth
+│       │   │   ├── char
+│       │   │   │   ├── agp
+│       │   │   │   ├── hw_random
+│       │   │   │   ├── ipmi
+│       │   │   │   ├── mwave
+│       │   │   │   ├── pcmcia
+│       │   │   │   ├── tpm
+│       │   │   │   │   └── st33zp24
+│       │   │   │   └── xillybus
+│       │   │   ├── clk
+│       │   │   ├── cpufreq
+│       │   │   ├── crypto
+│       │   │   │   ├── cavium
+│       │   │   │   │   └── nitrox
+│       │   │   │   ├── ccp
+│       │   │   │   ├── chelsio
+│       │   │   │   │   └── chtls
+│       │   │   │   ├── qat
+│       │   │   │   │   ├── qat_common
+│       │   │   │   │   ├── qat_dh895xcc
+│       │   │   │   │   └── qat_dh895xccvf
+│       │   │   │   └── virtio
+│       │   │   ├── dax
+│       │   │   ├── dca
+│       │   │   ├── dma
+│       │   │   │   ├── dw
+│       │   │   │   ├── hsu
+│       │   │   │   ├── ioat
+│       │   │   │   └── qcom
+│       │   │   ├── edac
+│       │   │   ├── extcon
+│       │   │   ├── firewire
+│       │   │   ├── firmware
+│       │   │   │   └── efi
+│       │   │   │       └── test
+│       │   │   ├── fmc
+│       │   │   ├── fpga
+│       │   │   ├── gpio
+│       │   │   ├── gpu
+│       │   │   │   └── drm
+│       │   │   │       ├── amd
+│       │   │   │       │   ├── amdgpu
+│       │   │   │       │   ├── amdkfd
+│       │   │   │       │   └── lib
+│       │   │   │       ├── ast
+│       │   │   │       ├── bridge
+│       │   │   │       ├── cirrus
+│       │   │   │       ├── gma500
+│       │   │   │       ├── hisilicon
+│       │   │   │       │   └── hibmc
+│       │   │   │       ├── i2c
+│       │   │   │       ├── i915
+│       │   │   │       │   └── gvt
+│       │   │   │       ├── mgag200
+│       │   │   │       ├── nouveau
+│       │   │   │       ├── panel
+│       │   │   │       ├── qxl
+│       │   │   │       ├── radeon
+│       │   │   │       ├── scheduler
+│       │   │   │       ├── tinydrm
+│       │   │   │       │   └── core
+│       │   │   │       ├── ttm
+│       │   │   │       ├── udl
+│       │   │   │       ├── vgem
+│       │   │   │       ├── virtio
+│       │   │   │       ├── vmwgfx
+│       │   │   │       └── xen
+│       │   │   ├── hid
+│       │   │   │   ├── i2c-hid
+│       │   │   │   ├── intel-ish-hid
+│       │   │   │   └── usbhid
+│       │   │   ├── hsi
+│       │   │   │   └── clients
+│       │   │   ├── hv
+│       │   │   ├── hwmon
+│       │   │   │   └── pmbus
+│       │   │   ├── hwtracing
+│       │   │   │   ├── intel_th
+│       │   │   │   └── stm
+│       │   │   ├── i2c
+│       │   │   │   ├── algos
+│       │   │   │   ├── busses
+│       │   │   │   └── muxes
+│       │   │   ├── iio
+│       │   │   │   ├── accel
+│       │   │   │   ├── adc
+│       │   │   │   ├── amplifiers
+│       │   │   │   ├── buffer
+│       │   │   │   ├── chemical
+│       │   │   │   ├── common
+│       │   │   │   │   ├── cros_ec_sensors
+│       │   │   │   │   ├── hid-sensors
+│       │   │   │   │   ├── ms_sensors
+│       │   │   │   │   ├── ssp_sensors
+│       │   │   │   │   └── st_sensors
+│       │   │   │   ├── counter
+│       │   │   │   ├── dac
+│       │   │   │   ├── dummy
+│       │   │   │   ├── frequency
+│       │   │   │   ├── gyro
+│       │   │   │   ├── health
+│       │   │   │   ├── humidity
+│       │   │   │   ├── imu
+│       │   │   │   │   ├── bmi160
+│       │   │   │   │   ├── inv_mpu6050
+│       │   │   │   │   └── st_lsm6dsx
+│       │   │   │   ├── light
+│       │   │   │   ├── magnetometer
+│       │   │   │   ├── orientation
+│       │   │   │   ├── potentiometer
+│       │   │   │   ├── potentiostat
+│       │   │   │   ├── pressure
+│       │   │   │   ├── proximity
+│       │   │   │   ├── resolver
+│       │   │   │   ├── temperature
+│       │   │   │   └── trigger
+│       │   │   ├── infiniband
+│       │   │   │   ├── core
+│       │   │   │   ├── hw
+│       │   │   │   │   ├── bnxt_re
+│       │   │   │   │   ├── cxgb3
+│       │   │   │   │   ├── cxgb4
+│       │   │   │   │   ├── hfi1
+│       │   │   │   │   ├── i40iw
+│       │   │   │   │   ├── mlx4
+│       │   │   │   │   ├── mlx5
+│       │   │   │   │   ├── mthca
+│       │   │   │   │   ├── nes
+│       │   │   │   │   ├── ocrdma
+│       │   │   │   │   ├── qedr
+│       │   │   │   │   ├── qib
+│       │   │   │   │   ├── usnic
+│       │   │   │   │   └── vmw_pvrdma
+│       │   │   │   ├── sw
+│       │   │   │   │   ├── rdmavt
+│       │   │   │   │   └── rxe
+│       │   │   │   └── ulp
+│       │   │   │       ├── ipoib
+│       │   │   │       ├── iser
+│       │   │   │       ├── isert
+│       │   │   │       ├── opa_vnic
+│       │   │   │       ├── srp
+│       │   │   │       └── srpt
+│       │   │   ├── input
+│       │   │   │   ├── gameport
+│       │   │   │   ├── joystick
+│       │   │   │   │   └── iforce
+│       │   │   │   ├── keyboard
+│       │   │   │   ├── misc
+│       │   │   │   ├── mouse
+│       │   │   │   ├── rmi4
+│       │   │   │   ├── serio
+│       │   │   │   ├── tablet
+│       │   │   │   └── touchscreen
+│       │   │   ├── iommu
+│       │   │   ├── ipack
+│       │   │   │   ├── carriers
+│       │   │   │   └── devices
+│       │   │   ├── isdn
+│       │   │   │   ├── capi
+│       │   │   │   ├── divert
+│       │   │   │   ├── gigaset
+│       │   │   │   ├── hardware
+│       │   │   │   │   ├── avm
+│       │   │   │   │   ├── eicon
+│       │   │   │   │   └── mISDN
+│       │   │   │   ├── hisax
+│       │   │   │   ├── hysdn
+│       │   │   │   ├── i4l
+│       │   │   │   └── mISDN
+│       │   │   ├── leds
+│       │   │   │   └── trigger
+│       │   │   ├── lightnvm
+│       │   │   ├── macintosh
+│       │   │   ├── mailbox
+│       │   │   ├── mcb
+│       │   │   ├── md
+│       │   │   │   ├── bcache
+│       │   │   │   └── persistent-data
+│       │   │   ├── media
+│       │   │   │   ├── cec
+│       │   │   │   ├── common
+│       │   │   │   │   ├── b2c2
+│       │   │   │   │   ├── saa7146
+│       │   │   │   │   ├── siano
+│       │   │   │   │   ├── v4l2-tpg
+│       │   │   │   │   └── videobuf2
+│       │   │   │   ├── dvb-core
+│       │   │   │   ├── dvb-frontends
+│       │   │   │   │   └── drx39xyj
+│       │   │   │   ├── firewire
+│       │   │   │   ├── i2c
+│       │   │   │   │   ├── cx25840
+│       │   │   │   │   └── soc_camera
+│       │   │   │   ├── mmc
+│       │   │   │   │   └── siano
+│       │   │   │   ├── pci
+│       │   │   │   │   ├── b2c2
+│       │   │   │   │   ├── bt8xx
+│       │   │   │   │   ├── cobalt
+│       │   │   │   │   ├── cx18
+│       │   │   │   │   ├── cx23885
+│       │   │   │   │   ├── cx25821
+│       │   │   │   │   ├── cx88
+│       │   │   │   │   ├── ddbridge
+│       │   │   │   │   ├── dm1105
+│       │   │   │   │   ├── dt3155
+│       │   │   │   │   ├── intel
+│       │   │   │   │   │   └── ipu3
+│       │   │   │   │   ├── ivtv
+│       │   │   │   │   ├── mantis
+│       │   │   │   │   ├── meye
+│       │   │   │   │   ├── netup_unidvb
+│       │   │   │   │   ├── ngene
+│       │   │   │   │   ├── pluto2
+│       │   │   │   │   ├── pt1
+│       │   │   │   │   ├── pt3
+│       │   │   │   │   ├── saa7134
+│       │   │   │   │   ├── saa7146
+│       │   │   │   │   ├── saa7164
+│       │   │   │   │   ├── smipcie
+│       │   │   │   │   ├── solo6x10
+│       │   │   │   │   ├── ttpci
+│       │   │   │   │   ├── tw5864
+│       │   │   │   │   ├── tw68
+│       │   │   │   │   └── tw686x
+│       │   │   │   ├── platform
+│       │   │   │   │   ├── cadence
+│       │   │   │   │   ├── marvell-ccic
+│       │   │   │   │   ├── soc_camera
+│       │   │   │   │   └── vivid
+│       │   │   │   ├── radio
+│       │   │   │   │   ├── si470x
+│       │   │   │   │   ├── si4713
+│       │   │   │   │   └── wl128x
+│       │   │   │   ├── rc
+│       │   │   │   │   └── keymaps
+│       │   │   │   ├── spi
+│       │   │   │   ├── tuners
+│       │   │   │   ├── usb
+│       │   │   │   │   ├── airspy
+│       │   │   │   │   ├── as102
+│       │   │   │   │   ├── au0828
+│       │   │   │   │   ├── b2c2
+│       │   │   │   │   ├── cpia2
+│       │   │   │   │   ├── cx231xx
+│       │   │   │   │   ├── dvb-usb
+│       │   │   │   │   ├── dvb-usb-v2
+│       │   │   │   │   ├── em28xx
+│       │   │   │   │   ├── go7007
+│       │   │   │   │   ├── gspca
+│       │   │   │   │   │   ├── gl860
+│       │   │   │   │   │   ├── m5602
+│       │   │   │   │   │   └── stv06xx
+│       │   │   │   │   ├── hackrf
+│       │   │   │   │   ├── hdpvr
+│       │   │   │   │   ├── msi2500
+│       │   │   │   │   ├── pulse8-cec
+│       │   │   │   │   ├── pvrusb2
+│       │   │   │   │   ├── pwc
+│       │   │   │   │   ├── rainshadow-cec
+│       │   │   │   │   ├── s2255
+│       │   │   │   │   ├── siano
+│       │   │   │   │   ├── stk1160
+│       │   │   │   │   ├── stkwebcam
+│       │   │   │   │   ├── tm6000
+│       │   │   │   │   ├── ttusb-budget
+│       │   │   │   │   ├── ttusb-dec
+│       │   │   │   │   ├── usbtv
+│       │   │   │   │   ├── usbvision
+│       │   │   │   │   ├── uvc
+│       │   │   │   │   └── zr364xx
+│       │   │   │   └── v4l2-core
+│       │   │   ├── memstick
+│       │   │   │   ├── core
+│       │   │   │   └── host
+│       │   │   ├── message
+│       │   │   │   └── fusion
+│       │   │   ├── mfd
+│       │   │   ├── misc
+│       │   │   │   ├── altera-stapl
+│       │   │   │   ├── c2port
+│       │   │   │   ├── cardreader
+│       │   │   │   ├── cb710
+│       │   │   │   ├── echo
+│       │   │   │   ├── eeprom
+│       │   │   │   ├── genwqe
+│       │   │   │   ├── ibmasm
+│       │   │   │   ├── lis3lv02d
+│       │   │   │   ├── mei
+│       │   │   │   ├── mic
+│       │   │   │   │   ├── bus
+│       │   │   │   │   ├── card
+│       │   │   │   │   ├── cosm
+│       │   │   │   │   ├── cosm_client
+│       │   │   │   │   ├── host
+│       │   │   │   │   ├── scif
+│       │   │   │   │   └── vop
+│       │   │   │   ├── ti-st
+│       │   │   │   └── vmw_vmci
+│       │   │   ├── mmc
+│       │   │   │   ├── core
+│       │   │   │   └── host
+│       │   │   ├── mtd
+│       │   │   │   ├── chips
+│       │   │   │   ├── devices
+│       │   │   │   ├── lpddr
+│       │   │   │   ├── maps
+│       │   │   │   ├── nand
+│       │   │   │   │   ├── onenand
+│       │   │   │   │   └── raw
+│       │   │   │   ├── spi-nor
+│       │   │   │   └── ubi
+│       │   │   ├── net
+│       │   │   │   ├── arcnet
+│       │   │   │   ├── bonding
+│       │   │   │   ├── caif
+│       │   │   │   ├── can
+│       │   │   │   │   ├── cc770
+│       │   │   │   │   ├── c_can
+│       │   │   │   │   ├── ifi_canfd
+│       │   │   │   │   ├── m_can
+│       │   │   │   │   ├── peak_canfd
+│       │   │   │   │   ├── sja1000
+│       │   │   │   │   ├── softing
+│       │   │   │   │   ├── spi
+│       │   │   │   │   └── usb
+│       │   │   │   │       └── peak_usb
+│       │   │   │   ├── dsa
+│       │   │   │   │   ├── b53
+│       │   │   │   │   ├── microchip
+│       │   │   │   │   └── mv88e6xxx
+│       │   │   │   ├── ethernet
+│       │   │   │   │   ├── 3com
+│       │   │   │   │   ├── 8390
+│       │   │   │   │   ├── adaptec
+│       │   │   │   │   ├── agere
+│       │   │   │   │   ├── alacritech
+│       │   │   │   │   ├── alteon
+│       │   │   │   │   ├── altera
+│       │   │   │   │   ├── amazon
+│       │   │   │   │   │   └── ena
+│       │   │   │   │   ├── amd
+│       │   │   │   │   │   └── xgbe
+│       │   │   │   │   ├── aquantia
+│       │   │   │   │   │   └── atlantic
+│       │   │   │   │   ├── atheros
+│       │   │   │   │   │   ├── alx
+│       │   │   │   │   │   ├── atl1c
+│       │   │   │   │   │   ├── atl1e
+│       │   │   │   │   │   └── atlx
+│       │   │   │   │   ├── aurora
+│       │   │   │   │   ├── broadcom
+│       │   │   │   │   │   ├── bnx2x
+│       │   │   │   │   │   └── bnxt
+│       │   │   │   │   ├── brocade
+│       │   │   │   │   │   └── bna
+│       │   │   │   │   ├── cadence
+│       │   │   │   │   ├── cavium
+│       │   │   │   │   │   ├── common
+│       │   │   │   │   │   ├── liquidio
+│       │   │   │   │   │   └── thunder
+│       │   │   │   │   ├── chelsio
+│       │   │   │   │   │   ├── cxgb
+│       │   │   │   │   │   ├── cxgb3
+│       │   │   │   │   │   ├── cxgb4
+│       │   │   │   │   │   ├── cxgb4vf
+│       │   │   │   │   │   └── libcxgb
+│       │   │   │   │   ├── cisco
+│       │   │   │   │   │   └── enic
+│       │   │   │   │   ├── dec
+│       │   │   │   │   │   └── tulip
+│       │   │   │   │   ├── dlink
+│       │   │   │   │   ├── emulex
+│       │   │   │   │   │   └── benet
+│       │   │   │   │   ├── fujitsu
+│       │   │   │   │   ├── hp
+│       │   │   │   │   ├── huawei
+│       │   │   │   │   │   └── hinic
+│       │   │   │   │   ├── intel
+│       │   │   │   │   │   ├── e1000
+│       │   │   │   │   │   ├── e1000e
+│       │   │   │   │   │   ├── fm10k
+│       │   │   │   │   │   ├── i40e
+│       │   │   │   │   │   ├── i40evf
+│       │   │   │   │   │   ├── ice
+│       │   │   │   │   │   ├── igb
+│       │   │   │   │   │   ├── igbvf
+│       │   │   │   │   │   ├── ixgb
+│       │   │   │   │   │   ├── ixgbe
+│       │   │   │   │   │   └── ixgbevf
+│       │   │   │   │   ├── marvell
+│       │   │   │   │   ├── mellanox
+│       │   │   │   │   │   ├── mlx4
+│       │   │   │   │   │   ├── mlx5
+│       │   │   │   │   │   │   └── core
+│       │   │   │   │   │   ├── mlxfw
+│       │   │   │   │   │   └── mlxsw
+│       │   │   │   │   ├── micrel
+│       │   │   │   │   ├── microchip
+│       │   │   │   │   ├── mscc
+│       │   │   │   │   ├── myricom
+│       │   │   │   │   │   └── myri10ge
+│       │   │   │   │   ├── natsemi
+│       │   │   │   │   ├── neterion
+│       │   │   │   │   │   └── vxge
+│       │   │   │   │   ├── netronome
+│       │   │   │   │   │   └── nfp
+│       │   │   │   │   ├── nvidia
+│       │   │   │   │   ├── packetengines
+│       │   │   │   │   ├── qlogic
+│       │   │   │   │   │   ├── netxen
+│       │   │   │   │   │   ├── qed
+│       │   │   │   │   │   ├── qede
+│       │   │   │   │   │   ├── qlcnic
+│       │   │   │   │   │   └── qlge
+│       │   │   │   │   ├── qualcomm
+│       │   │   │   │   │   ├── emac
+│       │   │   │   │   │   └── rmnet
+│       │   │   │   │   ├── rdc
+│       │   │   │   │   ├── realtek
+│       │   │   │   │   ├── rocker
+│       │   │   │   │   ├── samsung
+│       │   │   │   │   │   └── sxgbe
+│       │   │   │   │   ├── sfc
+│       │   │   │   │   │   └── falcon
+│       │   │   │   │   ├── silan
+│       │   │   │   │   ├── sis
+│       │   │   │   │   ├── smsc
+│       │   │   │   │   ├── stmicro
+│       │   │   │   │   │   └── stmmac
+│       │   │   │   │   ├── sun
+│       │   │   │   │   ├── synopsys
+│       │   │   │   │   ├── tehuti
+│       │   │   │   │   ├── ti
+│       │   │   │   │   ├── via
+│       │   │   │   │   ├── wiznet
+│       │   │   │   │   └── xircom
+│       │   │   │   ├── fddi
+│       │   │   │   │   └── skfp
+│       │   │   │   ├── fjes
+│       │   │   │   ├── hamradio
+│       │   │   │   ├── hyperv
+│       │   │   │   ├── ieee802154
+│       │   │   │   ├── ipvlan
+│       │   │   │   ├── netdevsim
+│       │   │   │   ├── phy
+│       │   │   │   ├── plip
+│       │   │   │   ├── ppp
+│       │   │   │   ├── slip
+│       │   │   │   ├── team
+│       │   │   │   ├── usb
+│       │   │   │   ├── vmxnet3
+│       │   │   │   ├── wan
+│       │   │   │   │   └── lmc
+│       │   │   │   ├── wimax
+│       │   │   │   │   └── i2400m
+│       │   │   │   ├── wireless
+│       │   │   │   │   ├── admtek
+│       │   │   │   │   ├── ath
+│       │   │   │   │   │   ├── ar5523
+│       │   │   │   │   │   ├── ath10k
+│       │   │   │   │   │   ├── ath5k
+│       │   │   │   │   │   ├── ath6kl
+│       │   │   │   │   │   ├── ath9k
+│       │   │   │   │   │   ├── carl9170
+│       │   │   │   │   │   ├── wcn36xx
+│       │   │   │   │   │   └── wil6210
+│       │   │   │   │   ├── atmel
+│       │   │   │   │   ├── broadcom
+│       │   │   │   │   │   ├── b43
+│       │   │   │   │   │   ├── b43legacy
+│       │   │   │   │   │   └── brcm80211
+│       │   │   │   │   │       ├── brcmfmac
+│       │   │   │   │   │       ├── brcmsmac
+│       │   │   │   │   │       └── brcmutil
+│       │   │   │   │   ├── cisco
+│       │   │   │   │   ├── intel
+│       │   │   │   │   │   ├── ipw2x00
+│       │   │   │   │   │   ├── iwlegacy
+│       │   │   │   │   │   └── iwlwifi
+│       │   │   │   │   │       ├── dvm
+│       │   │   │   │   │       └── mvm
+│       │   │   │   │   ├── intersil
+│       │   │   │   │   │   ├── hostap
+│       │   │   │   │   │   ├── orinoco
+│       │   │   │   │   │   └── p54
+│       │   │   │   │   ├── marvell
+│       │   │   │   │   │   ├── libertas
+│       │   │   │   │   │   ├── libertas_tf
+│       │   │   │   │   │   └── mwifiex
+│       │   │   │   │   ├── mediatek
+│       │   │   │   │   │   ├── mt76
+│       │   │   │   │   │   └── mt7601u
+│       │   │   │   │   ├── quantenna
+│       │   │   │   │   │   └── qtnfmac
+│       │   │   │   │   ├── ralink
+│       │   │   │   │   │   └── rt2x00
+│       │   │   │   │   ├── realtek
+│       │   │   │   │   │   ├── rtl818x
+│       │   │   │   │   │   │   ├── rtl8180
+│       │   │   │   │   │   │   └── rtl8187
+│       │   │   │   │   │   ├── rtl8xxxu
+│       │   │   │   │   │   └── rtlwifi
+│       │   │   │   │   │       ├── btcoexist
+│       │   │   │   │   │       ├── rtl8188ee
+│       │   │   │   │   │       ├── rtl8192c
+│       │   │   │   │   │       ├── rtl8192ce
+│       │   │   │   │   │       ├── rtl8192cu
+│       │   │   │   │   │       ├── rtl8192de
+│       │   │   │   │   │       ├── rtl8192ee
+│       │   │   │   │   │       ├── rtl8192se
+│       │   │   │   │   │       ├── rtl8723ae
+│       │   │   │   │   │       ├── rtl8723be
+│       │   │   │   │   │       ├── rtl8723com
+│       │   │   │   │   │       └── rtl8821ae
+│       │   │   │   │   ├── rsi
+│       │   │   │   │   ├── st
+│       │   │   │   │   │   └── cw1200
+│       │   │   │   │   ├── ti
+│       │   │   │   │   │   ├── wl1251
+│       │   │   │   │   │   ├── wl12xx
+│       │   │   │   │   │   ├── wl18xx
+│       │   │   │   │   │   └── wlcore
+│       │   │   │   │   └── zydas
+│       │   │   │   │       └── zd1211rw
+│       │   │   │   └── xen-netback
+│       │   │   ├── nfc
+│       │   │   │   ├── fdp
+│       │   │   │   ├── microread
+│       │   │   │   ├── nfcmrvl
+│       │   │   │   ├── nxp-nci
+│       │   │   │   ├── pn533
+│       │   │   │   ├── pn544
+│       │   │   │   ├── s3fwrn5
+│       │   │   │   ├── st21nfca
+│       │   │   │   ├── st95hf
+│       │   │   │   └── st-nci
+│       │   │   ├── ntb
+│       │   │   │   ├── hw
+│       │   │   │   │   ├── idt
+│       │   │   │   │   ├── intel
+│       │   │   │   │   └── mscc
+│       │   │   │   └── test
+│       │   │   ├── nvdimm
+│       │   │   ├── nvme
+│       │   │   │   ├── host
+│       │   │   │   └── target
+│       │   │   ├── nvmem
+│       │   │   ├── parport
+│       │   │   ├── pci
+│       │   │   │   ├── controller
+│       │   │   │   ├── hotplug
+│       │   │   │   └── switch
+│       │   │   ├── pcmcia
+│       │   │   ├── phy
+│       │   │   │   ├── broadcom
+│       │   │   │   ├── marvell
+│       │   │   │   ├── motorola
+│       │   │   │   ├── qualcomm
+│       │   │   │   ├── samsung
+│       │   │   │   └── ti
+│       │   │   ├── pinctrl
+│       │   │   │   └── intel
+│       │   │   ├── platform
+│       │   │   │   ├── chrome
+│       │   │   │   ├── mellanox
+│       │   │   │   └── x86
+│       │   │   ├── power
+│       │   │   │   └── supply
+│       │   │   ├── powercap
+│       │   │   ├── pps
+│       │   │   │   └── clients
+│       │   │   ├── ptp
+│       │   │   ├── pwm
+│       │   │   ├── rapidio
+│       │   │   │   ├── devices
+│       │   │   │   └── switches
+│       │   │   ├── regulator
+│       │   │   ├── remoteproc
+│       │   │   ├── reset
+│       │   │   ├── rpmsg
+│       │   │   ├── rtc
+│       │   │   ├── scsi
+│       │   │   │   ├── aacraid
+│       │   │   │   ├── aic7xxx
+│       │   │   │   ├── aic94xx
+│       │   │   │   ├── arcmsr
+│       │   │   │   ├── be2iscsi
+│       │   │   │   ├── bfa
+│       │   │   │   ├── bnx2fc
+│       │   │   │   ├── bnx2i
+│       │   │   │   ├── csiostor
+│       │   │   │   ├── cxgbi
+│       │   │   │   │   ├── cxgb3i
+│       │   │   │   │   └── cxgb4i
+│       │   │   │   ├── device_handler
+│       │   │   │   ├── esas2r
+│       │   │   │   ├── fcoe
+│       │   │   │   ├── fnic
+│       │   │   │   ├── isci
+│       │   │   │   ├── libfc
+│       │   │   │   ├── libsas
+│       │   │   │   ├── lpfc
+│       │   │   │   ├── megaraid
+│       │   │   │   ├── mpt3sas
+│       │   │   │   ├── mvsas
+│       │   │   │   ├── osd
+│       │   │   │   ├── pcmcia
+│       │   │   │   ├── pm8001
+│       │   │   │   ├── qedf
+│       │   │   │   ├── qedi
+│       │   │   │   ├── qla2xxx
+│       │   │   │   ├── qla4xxx
+│       │   │   │   ├── smartpqi
+│       │   │   │   ├── snic
+│       │   │   │   ├── sym53c8xx_2
+│       │   │   │   └── ufs
+│       │   │   ├── siox
+│       │   │   ├── slimbus
+│       │   │   ├── soc
+│       │   │   │   └── xilinx
+│       │   │   ├── soundwire
+│       │   │   ├── spi
+│       │   │   ├── spmi
+│       │   │   ├── ssb
+│       │   │   ├── staging
+│       │   │   │   ├── comedi
+│       │   │   │   │   ├── drivers
+│       │   │   │   │   └── kcomedilib
+│       │   │   │   ├── dgnc
+│       │   │   │   ├── fbtft
+│       │   │   │   ├── fwserial
+│       │   │   │   ├── gdm724x
+│       │   │   │   ├── greybus
+│       │   │   │   ├── gs_fpgaboot
+│       │   │   │   ├── iio
+│       │   │   │   │   ├── accel
+│       │   │   │   │   ├── adc
+│       │   │   │   │   ├── addac
+│       │   │   │   │   ├── cdc
+│       │   │   │   │   ├── frequency
+│       │   │   │   │   ├── gyro
+│       │   │   │   │   ├── impedance-analyzer
+│       │   │   │   │   ├── meter
+│       │   │   │   │   └── resolver
+│       │   │   │   ├── ks7010
+│       │   │   │   ├── media
+│       │   │   │   │   ├── bcm2048
+│       │   │   │   │   ├── imx074
+│       │   │   │   │   ├── mt9t031
+│       │   │   │   │   └── zoran
+│       │   │   │   ├── most
+│       │   │   │   │   ├── cdev
+│       │   │   │   │   ├── i2c
+│       │   │   │   │   ├── net
+│       │   │   │   │   ├── sound
+│       │   │   │   │   ├── usb
+│       │   │   │   │   └── video
+│       │   │   │   ├── mt29f_spinand
+│       │   │   │   ├── pi433
+│       │   │   │   ├── rtl8188eu
+│       │   │   │   ├── rtl8192e
+│       │   │   │   │   └── rtl8192e
+│       │   │   │   ├── rtl8192u
+│       │   │   │   ├── rtl8712
+│       │   │   │   ├── rtl8723bs
+│       │   │   │   ├── rtlwifi
+│       │   │   │   ├── rts5208
+│       │   │   │   ├── sm750fb
+│       │   │   │   ├── speakup
+│       │   │   │   ├── typec
+│       │   │   │   ├── unisys
+│       │   │   │   │   ├── visorhba
+│       │   │   │   │   ├── visorinput
+│       │   │   │   │   └── visornic
+│       │   │   │   ├── vboxvideo
+│       │   │   │   ├── vme
+│       │   │   │   │   └── devices
+│       │   │   │   ├── vt6655
+│       │   │   │   ├── vt6656
+│       │   │   │   ├── wilc1000
+│       │   │   │   ├── wlan-ng
+│       │   │   │   └── xgifb
+│       │   │   ├── target
+│       │   │   │   ├── iscsi
+│       │   │   │   │   └── cxgbit
+│       │   │   │   ├── loopback
+│       │   │   │   ├── sbp
+│       │   │   │   └── tcm_fc
+│       │   │   ├── thermal
+│       │   │   │   └── int340x_thermal
+│       │   │   ├── thunderbolt
+│       │   │   ├── tty
+│       │   │   │   ├── ipwireless
+│       │   │   │   └── serial
+│       │   │   │       ├── 8250
+│       │   │   │       └── jsm
+│       │   │   ├── uio
+│       │   │   ├── usb
+│       │   │   │   ├── atm
+│       │   │   │   ├── c67x00
+│       │   │   │   ├── chipidea
+│       │   │   │   ├── class
+│       │   │   │   ├── common
+│       │   │   │   ├── core
+│       │   │   │   ├── dwc2
+│       │   │   │   ├── dwc3
+│       │   │   │   ├── gadget
+│       │   │   │   │   ├── function
+│       │   │   │   │   ├── legacy
+│       │   │   │   │   └── udc
+│       │   │   │   │       └── bdc
+│       │   │   │   ├── host
+│       │   │   │   │   └── whci
+│       │   │   │   ├── image
+│       │   │   │   ├── isp1760
+│       │   │   │   ├── misc
+│       │   │   │   │   └── sisusbvga
+│       │   │   │   ├── mon
+│       │   │   │   ├── musb
+│       │   │   │   ├── phy
+│       │   │   │   ├── roles
+│       │   │   │   ├── serial
+│       │   │   │   ├── storage
+│       │   │   │   ├── typec
+│       │   │   │   │   ├── fusb302
+│       │   │   │   │   ├── mux
+│       │   │   │   │   └── ucsi
+│       │   │   │   ├── usbip
+│       │   │   │   └── wusbcore
+│       │   │   ├── uwb
+│       │   │   │   └── i1480
+│       │   │   │       └── dfu
+│       │   │   ├── vfio
+│       │   │   │   ├── mdev
+│       │   │   │   └── pci
+│       │   │   ├── vhost
+│       │   │   ├── video
+│       │   │   │   ├── backlight
+│       │   │   │   └── fbdev
+│       │   │   │       ├── aty
+│       │   │   │       ├── core
+│       │   │   │       ├── intelfb
+│       │   │   │       ├── kyro
+│       │   │   │       ├── matrox
+│       │   │   │       ├── mb862xx
+│       │   │   │       ├── nvidia
+│       │   │   │       ├── riva
+│       │   │   │       ├── savage
+│       │   │   │       ├── sis
+│       │   │   │       ├── vermilion
+│       │   │   │       └── via
+│       │   │   ├── virtio
+│       │   │   ├── visorbus
+│       │   │   ├── vme
+│       │   │   │   ├── boards
+│       │   │   │   └── bridges
+│       │   │   ├── w1
+│       │   │   │   ├── masters
+│       │   │   │   └── slaves
+│       │   │   ├── watchdog
+│       │   │   └── xen
+│       │   │       ├── xenfs
+│       │   │       └── xen-pciback
+│       │   ├── fs
+│       │   │   ├── 9p
+│       │   │   ├── adfs
+│       │   │   ├── affs
+│       │   │   ├── afs
+│       │   │   ├── aufs
+│       │   │   ├── autofs
+│       │   │   ├── befs
+│       │   │   ├── bfs
+│       │   │   ├── btrfs
+│       │   │   ├── cachefiles
+│       │   │   ├── ceph
+│       │   │   ├── cifs
+│       │   │   ├── coda
+│       │   │   ├── cramfs
+│       │   │   ├── dlm
+│       │   │   ├── efs
+│       │   │   ├── exofs
+│       │   │   ├── f2fs
+│       │   │   ├── fat
+│       │   │   ├── freevxfs
+│       │   │   ├── fscache
+│       │   │   ├── fuse
+│       │   │   ├── gfs2
+│       │   │   ├── hfs
+│       │   │   ├── hfsplus
+│       │   │   ├── hpfs
+│       │   │   ├── isofs
+│       │   │   ├── jffs2
+│       │   │   ├── jfs
+│       │   │   ├── lockd
+│       │   │   ├── minix
+│       │   │   ├── nfs
+│       │   │   │   ├── blocklayout
+│       │   │   │   ├── filelayout
+│       │   │   │   └── flexfilelayout
+│       │   │   ├── nfs_common
+│       │   │   ├── nfsd
+│       │   │   ├── nilfs2
+│       │   │   ├── nls
+│       │   │   ├── ntfs
+│       │   │   ├── ocfs2
+│       │   │   │   ├── cluster
+│       │   │   │   ├── dlm
+│       │   │   │   └── dlmfs
+│       │   │   ├── omfs
+│       │   │   ├── orangefs
+│       │   │   ├── overlayfs
+│       │   │   ├── pstore
+│       │   │   ├── qnx4
+│       │   │   ├── qnx6
+│       │   │   ├── quota
+│       │   │   ├── reiserfs
+│       │   │   ├── romfs
+│       │   │   ├── sysv
+│       │   │   ├── ubifs
+│       │   │   ├── udf
+│       │   │   ├── ufs
+│       │   │   └── xfs
+│       │   ├── kernel
+│       │   │   └── rcu
+│       │   ├── lib
+│       │   │   ├── 842
+│       │   │   ├── lz4
+│       │   │   ├── raid6
+│       │   │   ├── reed_solomon
+│       │   │   ├── xz
+│       │   │   └── zstd
+│       │   ├── mm
+│       │   ├── net
+│       │   │   ├── 6lowpan
+│       │   │   ├── 802
+│       │   │   ├── 8021q
+│       │   │   ├── 9p
+│       │   │   ├── appletalk
+│       │   │   ├── atm
+│       │   │   ├── ax25
+│       │   │   ├── batman-adv
+│       │   │   ├── bluetooth
+│       │   │   │   ├── bnep
+│       │   │   │   ├── cmtp
+│       │   │   │   ├── hidp
+│       │   │   │   └── rfcomm
+│       │   │   ├── bpfilter
+│       │   │   ├── bridge
+│       │   │   │   └── netfilter
+│       │   │   ├── caif
+│       │   │   ├── can
+│       │   │   ├── ceph
+│       │   │   ├── core
+│       │   │   ├── dccp
+│       │   │   ├── decnet
+│       │   │   │   └── netfilter
+│       │   │   ├── dsa
+│       │   │   ├── hsr
+│       │   │   ├── ieee802154
+│       │   │   │   └── 6lowpan
+│       │   │   ├── ife
+│       │   │   ├── ipv4
+│       │   │   │   └── netfilter
+│       │   │   ├── ipv6
+│       │   │   │   ├── ila
+│       │   │   │   └── netfilter
+│       │   │   ├── kcm
+│       │   │   ├── key
+│       │   │   ├── l2tp
+│       │   │   ├── lapb
+│       │   │   ├── llc
+│       │   │   ├── mac80211
+│       │   │   ├── mac802154
+│       │   │   ├── mpls
+│       │   │   ├── netfilter
+│       │   │   │   ├── ipset
+│       │   │   │   └── ipvs
+│       │   │   ├── netlink
+│       │   │   ├── netrom
+│       │   │   ├── nfc
+│       │   │   │   ├── hci
+│       │   │   │   └── nci
+│       │   │   ├── nsh
+│       │   │   ├── openvswitch
+│       │   │   ├── packet
+│       │   │   ├── phonet
+│       │   │   ├── psample
+│       │   │   ├── rds
+│       │   │   ├── rfkill
+│       │   │   ├── rose
+│       │   │   ├── rxrpc
+│       │   │   ├── sched
+│       │   │   ├── sctp
+│       │   │   ├── smc
+│       │   │   ├── sunrpc
+│       │   │   │   ├── auth_gss
+│       │   │   │   └── xprtrdma
+│       │   │   ├── tipc
+│       │   │   ├── tls
+│       │   │   ├── unix
+│       │   │   ├── vmw_vsock
+│       │   │   ├── wimax
+│       │   │   ├── wireless
+│       │   │   ├── x25
+│       │   │   └── xfrm
+│       │   ├── sound
+│       │   │   ├── core
+│       │   │   │   ├── oss
+│       │   │   │   └── seq
+│       │   │   ├── drivers
+│       │   │   │   ├── mpu401
+│       │   │   │   ├── opl3
+│       │   │   │   ├── pcsp
+│       │   │   │   └── vx
+│       │   │   ├── firewire
+│       │   │   │   ├── bebob
+│       │   │   │   ├── dice
+│       │   │   │   ├── digi00x
+│       │   │   │   ├── fireface
+│       │   │   │   ├── fireworks
+│       │   │   │   ├── motu
+│       │   │   │   ├── oxfw
+│       │   │   │   └── tascam
+│       │   │   ├── hda
+│       │   │   │   └── ext
+│       │   │   ├── i2c
+│       │   │   │   └── other
+│       │   │   ├── isa
+│       │   │   │   └── sb
+│       │   │   ├── pci
+│       │   │   │   ├── ac97
+│       │   │   │   ├── ali5451
+│       │   │   │   ├── asihpi
+│       │   │   │   ├── au88x0
+│       │   │   │   ├── aw2
+│       │   │   │   ├── ca0106
+│       │   │   │   ├── cs46xx
+│       │   │   │   ├── ctxfi
+│       │   │   │   ├── echoaudio
+│       │   │   │   ├── emu10k1
+│       │   │   │   ├── hda
+│       │   │   │   ├── ice1712
+│       │   │   │   ├── korg1212
+│       │   │   │   ├── lola
+│       │   │   │   ├── lx6464es
+│       │   │   │   ├── mixart
+│       │   │   │   ├── nm256
+│       │   │   │   ├── oxygen
+│       │   │   │   ├── pcxhr
+│       │   │   │   ├── riptide
+│       │   │   │   ├── rme9652
+│       │   │   │   ├── trident
+│       │   │   │   ├── vx222
+│       │   │   │   └── ymfpci
+│       │   │   ├── pcmcia
+│       │   │   │   ├── pdaudiocf
+│       │   │   │   └── vx
+│       │   │   ├── soc
+│       │   │   │   ├── amd
+│       │   │   │   ├── codecs
+│       │   │   │   ├── dwc
+│       │   │   │   ├── fsl
+│       │   │   │   ├── generic
+│       │   │   │   ├── hisilicon
+│       │   │   │   ├── img
+│       │   │   │   ├── intel
+│       │   │   │   │   ├── atom
+│       │   │   │   │   │   └── sst
+│       │   │   │   │   ├── boards
+│       │   │   │   │   ├── common
+│       │   │   │   │   ├── haswell
+│       │   │   │   │   └── skylake
+│       │   │   │   ├── xtensa
+│       │   │   │   └── zte
+│       │   │   ├── synth
+│       │   │   │   └── emux
+│       │   │   ├── usb
+│       │   │   │   ├── 6fire
+│       │   │   │   ├── bcd2000
+│       │   │   │   ├── caiaq
+│       │   │   │   ├── hiface
+│       │   │   │   ├── line6
+│       │   │   │   ├── misc
+│       │   │   │   └── usx2y
+│       │   │   ├── x86
+│       │   │   └── xen
+│       │   ├── ubuntu
+│       │   │   ├── hio
+│       │   │   ├── vbox
+│       │   │   │   ├── vboxguest
+│       │   │   │   └── vboxsf
+│       │   │   └── xr-usb-serial
+│       │   ├── virt
+│       │   │   └── lib
+│       │   └── zfs
+│       │       ├── avl
+│       │       ├── icp
+│       │       ├── nvpair
+│       │       ├── spl
+│       │       ├── splat
+│       │       ├── unicode
+│       │       ├── zcommon
+│       │       ├── zfs
+│       │       └── zpios
+│       ├── updates
+│       │   └── dkms
+│       └── vdso
+├── netplan
+├── recovery-mode
+│   └── options
+├── security
+├── systemd
+│   ├── network
+│   ├── system
+│   │   ├── getty.target.wants
+│   │   ├── graphical.target.wants
+│   │   ├── halt.target.wants
+│   │   ├── initrd-switch-root.target.wants
+│   │   ├── kexec.target.wants
+│   │   ├── local-fs.target.wants
+│   │   ├── multi-user.target.wants
+│   │   ├── poweroff.target.wants
+│   │   ├── rc-local.service.d
+│   │   ├── reboot.target.wants
+│   │   ├── rescue.target.wants
+│   │   ├── runlevel1.target.wants
+│   │   ├── runlevel2.target.wants
+│   │   ├── runlevel3.target.wants
+│   │   ├── runlevel4.target.wants
+│   │   ├── runlevel5.target.wants
+│   │   ├── sockets.target.wants
+│   │   ├── sound.target.wants
+│   │   ├── sysinit.target.wants
+│   │   ├── system-update.target.wants
+│   │   ├── timers.target.wants
+│   │   ├── user@.service.d
+│   │   └── user-.slice.d
+│   ├── system-generators
+│   ├── system-preset
+│   ├── system-shutdown
+│   └── system-sleep
+├── terminfo
+│   ├── a
+│   ├── c
+│   ├── d
+│   ├── E
+│   ├── h
+│   ├── l
+│   ├── m
+│   ├── p
+│   ├── r
+│   ├── s
+│   ├── v
+│   ├── w
+│   └── x
+├── udev
+│   ├── hwdb.d
+│   └── rules.d
+├── ufw
+└── x86_64-linux-gnu
+    └── security
+
+1300 directories

@@ -1,0 +1,1 @@
+cmd_/home/osboxes/dd/lab02/Module1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/osboxes/dd/lab02/Module1.ko /home/osboxes/dd/lab02/Module1.o /home/osboxes/dd/lab02/Module1.mod.o ;  true

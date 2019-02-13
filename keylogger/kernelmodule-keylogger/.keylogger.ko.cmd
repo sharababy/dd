@@ -1,0 +1,1 @@
+cmd_/home/osboxes/dd/keylogger/kernelmodule-keylogger/keylogger.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/osboxes/dd/keylogger/kernelmodule-keylogger/keylogger.ko /home/osboxes/dd/keylogger/kernelmodule-keylogger/keylogger.o /home/osboxes/dd/keylogger/kernelmodule-keylogger/keylogger.mod.o ;  true
