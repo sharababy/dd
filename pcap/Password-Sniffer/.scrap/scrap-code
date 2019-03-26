@@ -1,0 +1,21 @@
+/* Filtering traffic */
+	//char filter_exp[] = "tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420";
+	// char filter_exp[] = "(tcp dst port 80 or tcp dst port 8080) and ((tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420) or (tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x504f5354))";
+	/*char filter_exp[] = "(tcp dst port 80 or tcp dst port 8080 or tcp dst port 1000) and (tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x504f5354)";
+
+	struct bpf_program fp;
+	if (pcap_compile(handle, &fp, filter_exp, 0, mask) == -1)
+	{
+		fprintf(stderr, "ERROR: Failed to parse filter '%s': %s\n", filter_exp, pcap_geterr(handle));
+		return 2;
+	}
+
+	if(pcap_setfilter(handle, &fp) == -1)
+	{
+		fprintf(stderr, "ERROR: Failed to install filter '%s': %s\n", filter_exp, pcap_geterr(handle));
+		return 2;
+	}*/
+
+
+/* Grab packets */
+	pcap_loop(handle, -1, packetRecieved, NULL);
